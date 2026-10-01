@@ -40,7 +40,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.CompareVar,
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.System.Exps.random,
-		C3.JavaScriptInEvents.GebeurtenissenBlad1_Event19_Act1
+		C3.JavaScriptInEvents.GebeurtenissenBlad1_Event19_Act1,
+		C3.Plugins.Touch.Cnds.OnHoldGesture,
+		C3.Plugins.Mouse.Cnds.OnRelease
 	];
 };
 self.C3_JsPropNameTable = [
@@ -67,6 +69,7 @@ self.C3_JsPropNameTable = [
 	{b599bd04938a2da758362c0ef74removebgpreview: 0},
 	{HTMLElement2: 0},
 	{Afbeelding2: 0},
+	{cursorpointersymbolpng: 0},
 	{Speed: 0},
 	{Started: 0},
 	{Auto: 0},
@@ -94,5 +97,6 @@ self.InstanceType = {
 	Dictionary: class extends self.IDictionaryInstance {},
 	b599bd04938a2da758362c0ef74removebgpreview: class extends self.ISpriteInstance {},
 	HTMLElement2: class extends self.IHTMLElementInstance {},
-	Afbeelding2: class extends self.ISpriteInstance {}
+	Afbeelding2: class extends self.ISpriteInstance {},
+	cursorpointersymbolpng: class extends self.ISpriteInstance {}
 }
